@@ -1,0 +1,98 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: url("/img/gym1.jpg") no-repeat center center/cover;
+}
+
+.left {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 34px;
+}
+
+.left img {
+  width: 40px;
+}
+
+.mid {
+  display: block;
+  width: 37%;
+  margin: 20px auto;
+}
+
+.right {
+  position: absolute;
+  top: 0px;
+  right: 34px;
+  display: inline-block;
+}
+
+.navbar {
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 30px 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  color: black;
+}
+
+.btn {
+  margin: 0px 9px;
+  background-color: rgb(165, 196, 196);
+  color: black;
+  padding: 5px 16px;
+  border: 3px solid black;
+  border-radius: 13px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 15px 6px;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+.container {
+  border: 2px solid black;
+  margin: 106px 80px;
+  padding: 75px;
+  width: 33%;
+  border-radius: 28px;
+}
+
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 300px;
+  padding: 2px;
+  border: 2px solid black;
+  margin: 12px auto;
+  font-size: 15px;
+  border-radius: 9px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container button {
+  display: block;
+  width: 24%;
+  margin: 15px auto;
+}
